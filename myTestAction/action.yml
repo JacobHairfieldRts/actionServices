@@ -1,0 +1,12 @@
+name: "Simple Test Action"
+description: "Runs a function and returns a result"
+inputs:
+  number:
+    description: "A number to test"
+    required: true
+outputs:
+  result:
+    description: "The squared result"
+runs:
+  using: "node16"
+  main: "index.js"
